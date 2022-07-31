@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import smtplib
 URL = 'https://www.jumia.com.ng/oraimo-riff-smaller-for-comfort-true-wireless-earbuds-black-89937317.html'
 BUY_PRICE = 85000
-MY_EMAIL = 'kodiugos@gmail.com'
-PWD = 'llhytkakbfhnikci'
+MY_EMAIL = 'name@gmail.com'
+PWD = 'YOUR OWN'
 
 response = requests.get(url=URL)
 web_data = response.text
